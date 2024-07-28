@@ -20,9 +20,9 @@ lottieContainer.style.cssText = `
     max-height: 100%;
     display: none;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    //top: 50%;
+    //left: 50%;
+   // transform: translate(-50%, -50%);
     background-color: rgba(29, 36, 40, 1);
 `;
 lottieContainer.style.display = 'none';
