@@ -1,23 +1,7 @@
-const overlay = document.createElement('div');
-overlay.id = 'loader';
-overlay.style.cssText = `
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(29, 36, 40, 1);
-    z-index: 999;
-`;
 
 const lottieContainer = document.createElement('div');
 lottieContainer.id = 'lottieContainer';
 lottieContainer.style.cssText = `
-    max-width: 100%;
-    max-height: 100%;
     display: none;
     position: absolute;
     width: 100%;
@@ -26,11 +10,9 @@ lottieContainer.style.cssText = `
 `;
 lottieContainer.style.display = 'none';
 
-document.body.appendChild(overlay);
 document.body.appendChild(lottieContainer);
 
 function hideOverlay() {
-    overlay.style.display = 'none';
     lottieContainer.style.display = 'block';
     // Substitua pela URL direta do seu arquivo JSON do Lottie.
     lottie.loadAnimation({
