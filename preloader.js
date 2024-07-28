@@ -15,7 +15,7 @@ lottieContainer.style.display = 'none';
 document.body.appendChild(lottieContainer);
 
 function hideOverlay() {
-    lottieContainer.style.display = 'block';
+    lottieContainer.style.display = 'flex';
     // Substitua pela URL direta do seu arquivo JSON do Lottie.
     lottie.loadAnimation({
         container: lottieContainer,
