@@ -9,7 +9,7 @@ overlay.style.cssText = `
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(29, 36, 40, 1);
     z-index: 999;
 `;
 
@@ -18,7 +18,7 @@ lottieContainer.id = 'lottieContainer';
 lottieContainer.style.cssText = `
     max-width: 100%;
     max-height: 100%;
-    display: none;
+    display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -45,5 +45,3 @@ function hideOverlay() {
 document.addEventListener('DOMContentLoaded', () => {
     hideOverlay(); // Teste sem o setTimeout
 });
-
-//window.addEventListener('load', hideOverlay);
