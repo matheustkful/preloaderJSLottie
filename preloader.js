@@ -2,14 +2,16 @@
 const lottieContainer = document.createElement('div');
 lottieContainer.id = 'lottieContainer';
 lottieContainer.style.cssText = `
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(29, 36, 40, 1);
-`;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(29, 36, 40, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    `;
 lottieContainer.style.display = 'none';
-
 document.body.appendChild(lottieContainer);
 
 function hideOverlay() {
