@@ -22,7 +22,7 @@ lottieContainer.style.cssText = `
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 255, 0, 1);
+    background-color: rgba(29, 36, 40, 1);
 `;
 lottieContainer.style.display = 'none';
 
